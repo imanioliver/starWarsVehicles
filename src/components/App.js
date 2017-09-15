@@ -98,11 +98,15 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Jumbotron/>
+        <div className="jumbotron">
+            <Jumbotron />
+        </div>
+    
+            <Form pilot={this.state.pilot} pilotName={this.state.pilotName} handleNameChange={this.handleNameChange} handleFormSubmit={this.handleFormSubmit}  empty={this.state.empty}/>
 
-        <Form pilot={this.state.pilot} pilotName={this.state.pilotName} handleNameChange={this.handleNameChange} handleFormSubmit={this.handleFormSubmit}  empty={this.state.empty}/>
-
-        {this.state.vehicles}
+        <div className="row">
+            {this.state.vehicles}
+        </div>
 
 
       </div>
