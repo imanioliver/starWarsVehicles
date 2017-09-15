@@ -1,0 +1,18 @@
+.App {
+  margin: 10px;
+}
+
+.card{
+  margin: 5px;
+  width: 20rem;
+}
+
+.form{
+  text-align: center;
+}
+
+.specy{
+    border-bottom: solid;
+    border-color: gray;
+    border-width: thin; 
+}
